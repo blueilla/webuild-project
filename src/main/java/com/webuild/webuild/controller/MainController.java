@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
   @GetMapping("")
-  public String renderMainpage(){
+  public String renderMainPage(){
     return "Welcome to WeBuild! We build the future together!";
   }
 }
